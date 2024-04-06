@@ -1,2 +1,5 @@
 # landing-page
-Part of Odin Course
+
+	This is part of The Odin Project course.
+
+Working with pure css.!

@@ -14,6 +14,15 @@ a {
   text-decoration: none;
 }
 
+a:visited {
+  color: #fff;
+}
+
+a:hover,
+a:active {
+  color: #3882f6;
+}
+
 body {
   margin: 0 10%;
   background-color: #000;

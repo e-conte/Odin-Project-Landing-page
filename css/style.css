@@ -27,3 +27,17 @@ body {
   margin: 0 10%;
   background-color: #000;
 }
+
+header>nav>ul>li.left-side-logo {
+  font-size: 24px;
+}
+
+main>section.website-description>div.left-side>h1 {
+  font-size: 48px;
+}
+main>section.random-information>h2  {
+  font-size: 36px;
+}
+main>section.testimonials>q {
+  font-size: 36px;
+}

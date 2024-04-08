@@ -57,12 +57,14 @@ main>section.website-description {
 
 main>section.website-description>div.left-side  {
   width: 47.5%;
+  height: 150px;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
 }
 
-main>section .website-description>div.left-side>h1 {
+main>section.website-description>div.left-side>h1 {
   font-size: 48px;
 }
 

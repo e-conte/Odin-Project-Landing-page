@@ -180,3 +180,11 @@ main>section.call-to-action>div.blue-container>div.sign-up-button  {
   border-radius: 6px;
   border: #fff solid 3px;
 }
+
+footer {
+  height: 60px;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

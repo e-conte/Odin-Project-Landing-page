@@ -31,6 +31,7 @@ body {
 header>nav {
   display: flex;
   justify-content: space-between;
+  background-color: #1f2937;
 }
 
 header>nav>ul {
@@ -53,6 +54,7 @@ main>section.website-description {
   align-items: center;
   gap: 5%;
   flex-wrap: wrap;
+  background-color: #1f2937;
 }
 
 main>section.website-description>div.left-side  {

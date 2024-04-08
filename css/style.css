@@ -91,13 +91,41 @@ main>section.website-description>div.right-side> img {
 main>section.random-information {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  gap: 30px;
   height: 300px;
   background-color: #fff;
 }
 
 main>section.random-information>h2 {
   font-size: 36px;
+  color: #1f2937;
+}
+
+main>section.random-information>div.random-images-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+main>section.random-information>div.random-images-container>figure  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 20%;
+}
+
+main>section.random-information>div.random-images-container>figure>img {
+  height: 90px;
+  width: 90px;
+  border-radius: 50px;
+  border: #3882f6 solid 3px;
+}
+main>section.random-information>div.random-images-container>figure>figcaption  {
+  color: #1f2937;
+  text-align: center;
 }
 
 main>section.testimonials>q {

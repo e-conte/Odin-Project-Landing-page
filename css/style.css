@@ -42,7 +42,7 @@ header>nav>ul>li a {
 }
 
 main>section.website-description {
-  height: 250px;
+  height: 300px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -54,7 +54,7 @@ main>section.website-description {
 
 main>section.website-description>div.left-side {
   width: 47.5%;
-  height: 150px;
+  height: 250px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -86,7 +86,7 @@ main>section.website-description>div.right-side {
 }
 
 main>section.website-description>div.right-side>img {
-  max-height: 150px;
+  max-height: 250px;
   min-width: 100%;
 }
 
@@ -96,7 +96,7 @@ main>section.random-information {
   justify-content: center;
   align-items: center;
   gap: 30px;
-  height: 300px;
+  height: 280px;
   background-color: #fff;
 }
 

@@ -14,14 +14,7 @@ a {
   text-decoration: none;
 }
 
-a:visited {
-  color: #fff;
-}
 
-a:hover,
-a:active {
-  color: #3882f6;
-}
 
 body {
   margin: 0 10%;
@@ -80,6 +73,12 @@ main>section.website-description>div.left-side>div.sign-up-button>a {
   padding: 5px 15px;
   background-color: #3882f6;
   border-radius: 3px;
+}
+main>section.website-description>div.left-side>div.sign-up-button>a:hover,
+main>section.website-description>div.left-side>div.sign-up-button>a:active {
+  background-color: #e5e7eb;
+  color: #3882f6;
+  border: #e5e7eb -3px solid;
 }
 
 main>section.website-description>div.right-side {
@@ -162,10 +161,10 @@ main>section.call-to-action {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding:0 100px;  
+  padding: 0 100px;
 }
 
-main>section.call-to-action>div.blue-container  {
+main>section.call-to-action>div.blue-container {
   background-color: #3882f6;
   width: 100%;
   height: 140px;
@@ -175,10 +174,17 @@ main>section.call-to-action>div.blue-container  {
   align-items: center;
 }
 
-main>section.call-to-action>div.blue-container>div.sign-up-button  {
+main>section.call-to-action>div.blue-container>div.sign-up-button>a {
   padding: 5px 15px;
   border-radius: 6px;
   border: #fff solid 3px;
+}
+
+main>section.call-to-action>div.blue-container>div.sign-up-button>a:hover,
+main>section.call-to-action>div.blue-container>div.sign-up-button>a:active {
+  border: #3882f6 solid 3px;
+  background-color: #e5e7eb;
+  color: #3882f6;
 }
 
 footer {

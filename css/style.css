@@ -31,7 +31,6 @@ body {
 header>nav {
   display: flex;
   justify-content: space-between;
-  height: 50px;
 }
 
 header>nav>ul {
@@ -46,12 +45,39 @@ header>nav>div.left-side-logo {
 header>nav>ul>li a {
   padding-left: 5px;
 }
-main>section.website-description  {
+
+main>section.website-description {
   height: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5%;
+  flex-wrap: wrap;
 }
 
-main>section.website-description>div.left-side>h1 {
+main>section.website-description>div.left-side  {
+  width: 47.5%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+main>section .website-description>div.left-side>h1 {
   font-size: 48px;
+}
+
+main>section.website-description>div.left-side>div.sign-up-button  {
+  display: flex;
+}
+main>section.website-description>div.left-side>div.sign-up-button > a  {
+  padding: 5px;
+}
+main>section.website-description>div.right-side {
+  width: 47.5%;
+}
+main>section.website-description>div.right-side> img {
+  max-height: 150px;
+  min-width: 100%;
 }
 
 main>section.random-information>h2 {
